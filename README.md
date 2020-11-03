@@ -6,4 +6,4 @@
 ## 使用方法：
 `svm = load("SVM.RData") #读取SVM.RData模型文件` <br/> 
 `data = load("validation.RData") #读取验证集数据文件` <br/> 
-`r_score_pre_val <- predict(fit.svm,newdata = valid_all)计算模型Rad-score` <br/> 
+`r_score_pre_val <- predict(fit.svm,newdata = valid_all)#计算模型Rad-score` <br/> 
